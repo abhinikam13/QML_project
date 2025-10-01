@@ -1,10 +1,10 @@
-Quantum-Enhanced Hybrid Crop Disease Detection
+# Quantum-Enhanced Hybrid Crop Disease Detection
 
 This repository contains the implementation of a Hybrid Deep Learning + Quantum Machine Learning framework for crop disease detection.
 It uses leaf images (RGB) along with simulated soil parameters (NPK in ppm, pH, Chlorophyll SPAD values) for integrated precision farming.
 
 
-Features
+### Features
 CNN Models: Classical CNN trained for 3 classes → Healthy, Wilt, Nematode.
 MobileNetV2 Transfer Learning: Fine-tuned lightweight deep model for better generalization.
 Hybrid QNN Model: MobileNet feature extractor + Quantum Neural Network (QNN) layer.
@@ -14,13 +14,13 @@ Data Preparation Scripts: For dataset splitting and preprocessing.
 Quantum Training Script (qml_train.py): Demonstrates integration with PennyLane/Qiskit.
 
 
-Dataset
+### Dataset
 use a custom dataset hosted on Hugging Face that includes:
 Leaf images (Healthy, Wilt, Nematode)
 link -
 
 
-Installation
+### Installation
 Clone the repo:
 git clone 
 cd QML_project
