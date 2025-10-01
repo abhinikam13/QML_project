@@ -1,0 +1,26 @@
+# Ignore dataset folders
+dataset/
+dataset_2/
+fruit_dataset/
+processed_data/
+processed_data_2/
+
+# Ignore project-specific folders
+qcc/
+uis/
+
+# Ignore virtual environment
+venv/
+
+# Ignore specific files
+acc.py
+dataset_2.zip
+README.md
+
+# Optional: ignore Python cache and other common stuff
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.DS_Store
