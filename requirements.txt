@@ -1,0 +1,10 @@
+torch
+torchvision
+tensorflow
+pennylane
+qiskit
+streamlit
+Pillow
+numpy
+scikit-learn
+matplotlib
